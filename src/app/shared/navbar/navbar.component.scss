@@ -1,0 +1,40 @@
+.navbar {
+    padding: 4rem 8rem;
+    display: flex;
+    align-items: center;
+
+    &__left {
+        flex: 0 0 50%;
+    }
+
+    &__right {
+        flex: 1;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    &__links {
+        &:not(:last-of-type) {
+            margin-right: 3rem;
+        }
+
+        &,
+        &:link,
+        &:visited {
+            text-decoration: none;
+            display: inline-block;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 300;
+            color: var(--white);
+            line-height: 1.2;
+            transition: all 0.3s ease-in-out;
+            font-size: 1.4rem;
+        }
+
+        &:hover {
+            color: var(--primary);
+        }
+    }
+
+
+}

@@ -1,0 +1,26 @@
+.home {
+    min-height: 90vh;
+    background-image: url("https://res.cloudinary.com/dnp4qbrgm/image/upload/v1668242848/Website%20Assets/Nikhil-portfio-bg-Image_mc16_c5w2bu.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-color: var(--grey-light);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 16rem;
+
+    &__logo {
+        padding-left: 3rem;
+        margin-bottom: 4rem;
+    }
+
+    &__link {
+        margin-top: 4rem;
+        align-self: center;
+        color: var(--white);
+        font-weight: 800;
+        font-size: 2rem;
+    }
+}

@@ -1,0 +1,27 @@
+.work {
+    padding: 0rem 4rem;
+
+    &__videos {
+        padding: 5rem 0;
+    }
+
+    &__heading {
+        text-align: center;
+        width: 30rem;
+        margin: 0 auto;
+        margin-bottom: 2.2rem;
+        line-height: 29.64px;
+    }
+
+    &__list {
+        list-style: none;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+        gap: 15px;
+    }
+
+    &__items {
+        height: 20rem;
+        background-color: #Fff;
+    }
+}
