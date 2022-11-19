@@ -3,10 +3,10 @@
         <logo></logo>
     </div>
     <div class="navbar__right">
-        <a class='navbar__links' routerLink="/">Home</a>
-        <a class='navbar__links' routerLink="/work">Work</a>
-        <a class='navbar__links' routerLink="/about">About</a>
-        <a class='navbar__links' routerLink="/about">Contact</a>
+        <a class='navbar__links' routerLink="/" routerLinkActive="navbar__active" [routerLinkActiveOptions]="{exact:true}">Home</a>
+        <a class='navbar__links' routerLink="/work" routerLinkActive="navbar__active" [routerLinkActiveOptions]="{exact:true}">Work</a>
+        <a class='navbar__links' routerLink="/about" routerLinkActive="navbar__active" [routerLinkActiveOptions]="{exact:true}">About</a>
+        <a class='navbar__links' routerLink="/contact" routerLinkActive="navbar__active" [routerLinkActiveOptions]="{exact:true}">Contact</a>
         <a class='navbar__links' href='/' target="_blank" rel='noreferrer'>Resume</a>
     </div>
 </nav>

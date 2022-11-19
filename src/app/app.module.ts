@@ -8,6 +8,7 @@ import { LogoComponent } from './shared/logo/logo.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { WorkComponent } from './work/work.component';
 import { NavbarComponent } from './shared/navbar/navbar.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { NavbarComponent } from './shared/navbar/navbar.component';
     NotFoundComponent,
     WorkComponent,
     NavbarComponent,
+    ContactComponent,
   ],
   imports: [
     BrowserModule,
