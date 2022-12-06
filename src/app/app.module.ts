@@ -9,6 +9,7 @@ import { NotFoundComponent } from './not-found/not-found.component';
 import { WorkComponent } from './work/work.component';
 import { NavbarComponent } from './shared/navbar/navbar.component';
 import { ContactComponent } from './contact/contact.component';
+import { AboutComponent } from './about/about.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { ContactComponent } from './contact/contact.component';
     WorkComponent,
     NavbarComponent,
     ContactComponent,
+    AboutComponent,
   ],
   imports: [
     BrowserModule,
